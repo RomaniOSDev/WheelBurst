@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7432AFAA2EE0552F005FF882 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7432AFA72EE0552F005FF882 /* LoaderViewController.swift */; };
+		7432AFAB2EE0552F005FF882 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7432AFA42EE0552F005FF882 /* CheckLink.swift */; };
+		7432AFAC2EE0552F005FF882 /* OneSignalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7432AFA52EE0552F005FF882 /* OneSignalService.swift */; };
+		7432AFAD2EE0552F005FF882 /* FireBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7432AFA32EE0552F005FF882 /* FireBaseManager.swift */; };
+		7432AFAE2EE0552F005FF882 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7432AFA62EE0552F005FF882 /* InternetViewController.swift */; };
+		7432AFAF2EE0552F005FF882 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7432AFA82EE0552F005FF882 /* Extensions.swift */; };
+		7432AFB32EE0557B005FF882 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 7432AFB22EE0557B005FF882 /* AppsFlyerLib */; };
+		7432AFB62EE0558E005FF882 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 7432AFB52EE0558E005FF882 /* OneSignalFramework */; };
+		7432AFB92EE056FC005FF882 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 7432AFB82EE056FC005FF882 /* FirebaseDatabase */; };
+		7432AFBB2EE05784005FF882 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7432AFBA2EE05784005FF882 /* GoogleService-Info.plist */; };
 		74E8468F2ED38E6200419E92 /* GameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E8466F2ED38E6200419E92 /* GameListView.swift */; };
 		74E846902ED38E6200419E92 /* ChooseLevelForMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E846712ED38E6200419E92 /* ChooseLevelForMatchView.swift */; };
 		74E846912ED38E6200419E92 /* MatchLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E846722ED38E6200419E92 /* MatchLevel.swift */; };
@@ -31,6 +41,14 @@
 
 /* Begin PBXFileReference section */
 		742603CC2ECDBC3F00F0C411 /* WheelBurst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheelBurst.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7432AFA32EE0552F005FF882 /* FireBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseManager.swift; sourceTree = "<group>"; };
+		7432AFA42EE0552F005FF882 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		7432AFA52EE0552F005FF882 /* OneSignalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneSignalService.swift; sourceTree = "<group>"; };
+		7432AFA62EE0552F005FF882 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		7432AFA72EE0552F005FF882 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		7432AFA82EE0552F005FF882 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7432AFB02EE05540005FF882 /* WheelBurst.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WheelBurst.entitlements; sourceTree = "<group>"; };
+		7432AFBA2EE05784005FF882 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		74E8466F2ED38E6200419E92 /* GameListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListView.swift; sourceTree = "<group>"; };
 		74E846712ED38E6200419E92 /* ChooseLevelForMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseLevelForMatchView.swift; sourceTree = "<group>"; };
 		74E846722ED38E6200419E92 /* MatchLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchLevel.swift; sourceTree = "<group>"; };
@@ -62,6 +80,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7432AFB92EE056FC005FF882 /* FirebaseDatabase in Frameworks */,
+				7432AFB62EE0558E005FF882 /* OneSignalFramework in Frameworks */,
+				7432AFB32EE0557B005FF882 /* AppsFlyerLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +105,19 @@
 				742603CC2ECDBC3F00F0C411 /* WheelBurst.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7432AFA92EE0552F005FF882 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				7432AFA32EE0552F005FF882 /* FireBaseManager.swift */,
+				7432AFA42EE0552F005FF882 /* CheckLink.swift */,
+				7432AFA52EE0552F005FF882 /* OneSignalService.swift */,
+				7432AFA62EE0552F005FF882 /* InternetViewController.swift */,
+				7432AFA72EE0552F005FF882 /* LoaderViewController.swift */,
+				7432AFA82EE0552F005FF882 /* Extensions.swift */,
+			);
+			path = LoadingView;
 			sourceTree = "<group>";
 		};
 		74E846702ED38E6200419E92 /* GameList */ = {
@@ -158,6 +192,7 @@
 				74E8467E2ED38E6200419E92 /* Quiz */,
 				74E846802ED38E6200419E92 /* Setting */,
 				74E846822ED38E6200419E92 /* Start */,
+				7432AFA92EE0552F005FF882 /* LoadingView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,6 +200,7 @@
 		74E8468E2ED38E6200419E92 /* WheelBurst */ = {
 			isa = PBXGroup;
 			children = (
+				7432AFB02EE05540005FF882 /* WheelBurst.entitlements */,
 				74E846832ED38E6200419E92 /* Views */,
 				74E846842ED38E6200419E92 /* AppDelegate.swift */,
 				74E846852ED38E6200419E92 /* Assets.xcassets */,
@@ -174,6 +210,7 @@
 				74E8468B2ED38E6200419E92 /* Main.storyboard */,
 				74E8468C2ED38E6200419E92 /* SceneDelegate.swift */,
 				74E8468D2ED38E6200419E92 /* ViewController.swift */,
+				7432AFBA2EE05784005FF882 /* GoogleService-Info.plist */,
 			);
 			path = WheelBurst;
 			sourceTree = "<group>";
@@ -240,6 +277,11 @@
 				Base,
 			);
 			mainGroup = 742603C32ECDBC3F00F0C411;
+			packageReferences = (
+				7432AFB12EE0557B005FF882 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
+				7432AFB42EE0558E005FF882 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
+				7432AFB72EE056FC005FF882 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 742603CD2ECDBC3F00F0C411 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -255,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74E846A02ED38E6200419E92 /* Assets.xcassets in Resources */,
+				7432AFBB2EE05784005FF882 /* GoogleService-Info.plist in Resources */,
 				74E846A22ED38E6200419E92 /* LaunchScreen.storyboard in Resources */,
 				74E846A32ED38E6200419E92 /* Main.storyboard in Resources */,
 			);
@@ -309,6 +352,12 @@
 				74E8469D2ED38E6200419E92 /* ContentView.swift in Sources */,
 				74E8469E2ED38E6200419E92 /* SceneDelegate.swift in Sources */,
 				74E8469F2ED38E6200419E92 /* ViewController.swift in Sources */,
+				7432AFAA2EE0552F005FF882 /* LoaderViewController.swift in Sources */,
+				7432AFAB2EE0552F005FF882 /* CheckLink.swift in Sources */,
+				7432AFAC2EE0552F005FF882 /* OneSignalService.swift in Sources */,
+				7432AFAD2EE0552F005FF882 /* FireBaseManager.swift in Sources */,
+				7432AFAE2EE0552F005FF882 /* InternetViewController.swift in Sources */,
+				7432AFAF2EE0552F005FF882 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,8 +389,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WheelBurst/WheelBurst.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WheelBurst/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -354,7 +404,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kez.wh3lb8rst;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -377,8 +427,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WheelBurst/WheelBurst.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WheelBurst/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -391,7 +442,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kez.wh3lb8rst;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -549,6 +600,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7432AFB12EE0557B005FF882 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.7;
+			};
+		};
+		7432AFB42EE0558E005FF882 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.15;
+			};
+		};
+		7432AFB72EE056FC005FF882 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7432AFB22EE0557B005FF882 /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7432AFB12EE0557B005FF882 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
+		7432AFB52EE0558E005FF882 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7432AFB42EE0558E005FF882 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalFramework;
+		};
+		7432AFB82EE056FC005FF882 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7432AFB72EE056FC005FF882 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 742603C42ECDBC3F00F0C411 /* Project object */;
 }
